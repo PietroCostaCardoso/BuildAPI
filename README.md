@@ -125,6 +125,12 @@ Com o servidor rodando (\`http://localhost:3000\`), você pode enviar requisiç�
   "servico": ""
 }</code></pre>
 
+### Screenshots
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/7ad2dcae-b925-4ff8-a648-2785b33982dc" width="45%" />
+</div>
+</div>
+
  ## 👤 Autor
 
 Desenvolvido com dedicação por **Pietro Costa Cardoso**.  
