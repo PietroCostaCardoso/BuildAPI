@@ -1,0 +1,21 @@
+//  Configuração do Banco de Dados
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// A sua tabela de agendamentos se quiser acrescentar algo fique a vontande 
+model Appointment {
+  id          Int      @id @default(autoincrement())
+  clientName  String
+  service     String
+  dateTime    DateTime
+  status      String   @default("AGENDADO")
+  createdAt   DateTime @default(now())
+}
