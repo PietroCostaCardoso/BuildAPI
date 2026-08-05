@@ -20,8 +20,7 @@ Uma API RESTful desenvolvida com **Node.js**, **Express** e **Prisma ORM** para 
 
 ## Estrutura do Projeto
 
-\`\`\`text
-BuildAPI/
+<pre><code></code>BuildAPI/
 ├── Docs/
 │   └── README.md          # Documentação detalhada da API
 ├── prisma/                
@@ -39,8 +38,7 @@ BuildAPI/
 │   └── main.js            # Ponto de entrada da aplicação
 ├── .env                   # Variáveis de ambiente (ignorado pelo git)
 ├── package.json           # Dependências e scripts do projeto
-└── README.md             
-\`\`\`
+└── README.md </code></pre>
 
 ---
 
@@ -119,14 +117,13 @@ Com o servidor rodando (\`http://localhost:3000\`), você pode enviar requisiç�
 
 **Body (JSON):**
 
-\`\`\`json
-{
-  "cliente": "Pedrinho",
-  "data": "2026-07-07",
-  "horario": "11:30",
-  "servico": "Consulta"
-}
-\`\`\`
+
+<pre><code>{
+  "cliente": "",
+  "data": "",
+  "horario": "",
+  "servico": ""
+}</code></pre>
 
  ## 👤 Autor
 
