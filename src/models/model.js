@@ -29,7 +29,7 @@ export const AgendamentoM = {
     });
 
     if (ConferindoAgendamento) {
-      throw new Error('Já existe um agendamento para este horário.');
+      throw new Error('Já existe um agendamento para este horário');
     }
 
     return await prisma.appointment.create({
